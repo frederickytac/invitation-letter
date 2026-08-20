@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        to bottom,
+        #87ceeb,
+        #f7d794,
+        #f5cd79
+    );
+    padding: 20px;
+}
+
+.invitation {
+    width: 100%;
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.93);
+    border-radius: 25px;
+    padding: 40px 30px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.sun {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #e67e22;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+h1 span {
+    color: #e74c3c;
+}
+
+.message {
+    color: #555;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.details {
+    background: #eaf7fa;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.details p {
+    margin: 10px 0;
+    color: #333;
+    font-size: 16px;
+}
+
+.question {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e67e22;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    background: #ff7675;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #d63031;
+    transform: scale(1.05);
+}
+
+#response {
+    margin-top: 20px;
+    color: #27ae60;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer {
+    margin-top: 25px;
+    color: #888;
+    font-size: 14px;
+}
